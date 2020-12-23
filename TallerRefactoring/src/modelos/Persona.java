@@ -9,7 +9,6 @@ public class Persona {
     public String facultad;
     
     public Persona() {
-    	// Constructor vacio para subclases que no necesiten constructor
     }
     
 	public Persona(String nombre, String apellido, int edad, String direccion, String telefono, String facultad) {
@@ -21,7 +20,6 @@ public class Persona {
 		this.telefono = telefono;
 		this.facultad = facultad;
 	}
-	// Getters y Setters
 	
 	public String getNombre() {
 		return nombre;
