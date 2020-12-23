@@ -14,6 +14,14 @@ public class Estudiante extends Persona{
         this.matricula = matricula;
     }
     
+    public double calcularNotaInicial(Paralelo p, Nota n){
+        return calcularNota(p,n);
+    }
+    
+    public double calcularNotaFinal(Paralelo p, Nota n){
+        return calcularNota(p,n);
+    }
+    
     public double calcularNota(Paralelo p, Nota n) {
         double nota = 0;
         for(Paralelo par:paralelos){
