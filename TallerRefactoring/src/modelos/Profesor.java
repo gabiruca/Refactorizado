@@ -17,9 +17,8 @@ public class Profesor extends Persona {
     public void anadirParalelos(Paralelo p){
         paralelos.add(p);
     }
-     public double calcularSueldo(){
-        double sueldo=0;
-        sueldo= añosdeTrabajo*600 + BonoFijo;
-        return sueldo;
-    }  
+    
+    public double calcularSueldoProfesor() {
+    	return anosTrabajo*600+BonoFijo;
+    }
 }
